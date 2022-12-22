@@ -86,7 +86,7 @@ public class Main {
         byte minPerHour = 60;
         byte hourPerday = 24;
         System.out.println("За " + operatingTimeMin + " мин машина произведет "
-                + operatingTimeMin * bottleProductionIn1Min + " штук бутылок");
+                + operatingTimeMin * bottleProductionIn1Min + " штук бутылок.");
 
         System.out.println("За " + operatingTimeDay + " сутки машина произведет "
                 + operatingTimeDay * hourPerday * minPerHour * bottleProductionIn1Min + " штук бутылок");
